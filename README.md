@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dapxsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumkbn2@esm/index.mjs';
+import dapxsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumkbn2@v0.2.2-esm/index.mjs';
 ```
 
 #### dapxsumkbn2( N, alpha, x, stride )
@@ -151,7 +151,7 @@ var v = dapxsumkbn2.ndarray( 4, 5.0, x, 2, 1 );
 
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import dapxsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumkbn2@esm/index.mjs';
+import dapxsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dapxsumkbn2@v0.2.2-esm/index.mjs';
 
 var x = filledarrayBy( 10, 'float64', discreteUniform( 0, 100 ) );
 console.log( x );
