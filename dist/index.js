@@ -1,9 +1,9 @@
-"use strict";var b=function(s,u){return function(){return u||s((u={exports:{}}).exports,u),u.exports}};var k=b(function(H,d){
-var m=require('@stdlib/math-base-special-abs/dist');function g(s,u,q,o){var t,a,f,i,v,c,e,r,n;if(s<=0)return 0;if(s===1||o===0)return u+q[0];for(o<0?f=(1-s)*o:f=0,t=0,a=0,i=0,n=0;n<s;n++)c=u+q[f],e=t+c,m(t)>=m(c)?r=t-e+c:r=c-e+t,t=e,e=i+r,m(i)>=m(r)?v=i-e+r:v=r-e+i,i=e,a+=v,f+=o;return t+i+a}d.exports=g
-});var j=b(function(I,y){
-var x=require('@stdlib/math-base-special-abs/dist');function w(s,u,q,o,t){var a,f,i,v,c,e,r,n,p;if(s<=0)return 0;if(s===1||o===0)return u+q[0];for(i=t,a=0,f=0,v=0,p=0;p<s;p++)e=u+q[i],r=a+e,x(a)>=x(e)?n=a-r+e:n=e-r+a,a=r,r=v+n,x(v)>=x(n)?c=v-r+n:c=n-r+v,v=r,f+=c,i+=o;return a+v+f}y.exports=w
-});var E=b(function(J,_){
-var z=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),R=k(),A=j();z(R,"ndarray",A);_.exports=R
-});var B=require("path").join,C=require('@stdlib/utils-try-require/dist'),D=require('@stdlib/assert-is-error/dist'),F=E(),l,O=C(B(__dirname,"./native.js"));D(O)?l=F:l=O;module.exports=l;
+"use strict";var m=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var p=m(function(I,b){
+var c=require('@stdlib/math-base-special-abs/dist');function O(e,r,n,t,E){var i,o,q,s,f,v,a,u,d;if(e<=0)return 0;if(e===1||t===0)return r+n[0];for(q=E,i=0,o=0,s=0,d=0;d<e;d++)v=r+n[q],a=i+v,c(i)>=c(v)?u=i-a+v:u=v-a+i,i=a,a=s+u,c(s)>=c(u)?f=s-a+u:f=u-a+s,s=a,o+=f,q+=t;return i+s+o}b.exports=O
+});var k=m(function(J,y){
+var g=require('@stdlib/strided-base-stride2offset/dist'),w=p();function z(e,r,n,t){return w(e,r,n,t,g(e,t))}y.exports=z
+});var R=m(function(K,l){
+var A=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),j=k(),B=p();A(j,"ndarray",B);l.exports=j
+});var C=require("path").join,D=require('@stdlib/utils-try-require/dist'),F=require('@stdlib/assert-is-error/dist'),G=R(),x,_=D(C(__dirname,"./native.js"));F(_)?x=G:x=_;module.exports=x;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
