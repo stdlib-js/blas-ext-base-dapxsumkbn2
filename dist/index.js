@@ -1,5 +1,5 @@
 "use strict";var m=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var p=m(function(I,b){
-var c=require('@stdlib/math-base-special-abs/dist');function O(e,r,n,t,E){var i,o,q,s,f,v,a,u,d;if(e<=0)return 0;if(e===1||t===0)return r+n[0];for(q=E,i=0,o=0,s=0,d=0;d<e;d++)v=r+n[q],a=i+v,c(i)>=c(v)?u=i-a+v:u=v-a+i,i=a,a=s+u,c(s)>=c(u)?f=s-a+u:f=u-a+s,s=a,o+=f,q+=t;return i+s+o}b.exports=O
+var o=require('@stdlib/math-base-special-abs/dist');function O(e,r,n,t,E){var i,q,c,s,f,v,a,u,d;if(e<=0)return 0;if(c=E,t===0)return e*(r+n[c]);for(i=0,q=0,s=0,d=0;d<e;d++)v=r+n[c],a=i+v,o(i)>=o(v)?u=i-a+v:u=v-a+i,i=a,a=s+u,o(s)>=o(u)?f=s-a+u:f=u-a+s,s=a,q+=f,c+=t;return i+s+q}b.exports=O
 });var k=m(function(J,y){
 var g=require('@stdlib/strided-base-stride2offset/dist'),w=p();function z(e,r,n,t){return w(e,r,n,t,g(e,t))}y.exports=z
 });var R=m(function(K,l){

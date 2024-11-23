@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-11-23)
 
 <section class="features">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`16d48af`](https://github.com/stdlib-js/stdlib/commit/16d48af4bbe9dade8ca3f9e323db29ec75c4924f) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dapxsumkbn2` [(#3227)](https://github.com/stdlib-js/stdlib/pull/3227) _(by Muhammad Haris)_
 -   [`a13603b`](https://github.com/stdlib-js/stdlib/commit/a13603b556defa762f7fe1d25fbfa3b621404f69) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusum` [(#2954)](https://github.com/stdlib-js/stdlib/pull/2954) _(by Muhammad Haris)_
 -   [`2bcce62`](https://github.com/stdlib-js/stdlib/commit/2bcce6265ac56f754e447c3898b74f58710ea4a6) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsumkbn2` [(#2948)](https://github.com/stdlib-js/stdlib/pull/2948) _(by Muhammad Haris)_
 -   [`7e366ae`](https://github.com/stdlib-js/stdlib/commit/7e366ae8bd41439be0e99e958d1c3fbb1b7dd0c2) - **chore:** update package.json descriptions _(by Philipp Burckhardt)_
