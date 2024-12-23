@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`6a0d6b8`](https://github.com/stdlib-js/stdlib/commit/6a0d6b861f8e2079a501ca4e46a9175440eedb46) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
 -   [`16d48af`](https://github.com/stdlib-js/stdlib/commit/16d48af4bbe9dade8ca3f9e323db29ec75c4924f) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dapxsumkbn2` [(#3227)](https://github.com/stdlib-js/stdlib/pull/3227) _(by Muhammad Haris)_
