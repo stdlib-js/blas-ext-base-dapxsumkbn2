@@ -17,12 +17,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - add missing checks for `N` and address failing tests stemming from refactoring
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - **fix:** add missing checks for `N` and address failing tests stemming from refactoring _(by Athan Reines)_
 -   [`80a204d`](https://github.com/stdlib-js/stdlib/commit/80a204de6b9f5352e5d3f56856c9e631fac3c2f5) - **refactor:** simplify implementation _(by Athan Reines)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`8446185`](https://github.com/stdlib-js/stdlib/commit/8446185b02979b037363bf390bacddf937a83886) - **docs:** update related packages sections [(#5307)](https://github.com/stdlib-js/stdlib/pull/5307) _(by stdlib-bot)_
