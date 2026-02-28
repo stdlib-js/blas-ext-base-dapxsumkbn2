@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2e03fe9`](https://github.com/stdlib-js/stdlib/commit/2e03fe9e548309edda7bf7c5c66c3f671a9e2daf) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumkbn2` [(#10574)](https://github.com/stdlib-js/stdlib/pull/10574) _(by Prajjwal Bajpai)_
 -   [`49a4c22`](https://github.com/stdlib-js/stdlib/commit/49a4c224154a4eb0337818c19353046705c9cea5) - **bench:** refactor to use string interpolation in `blas/ext/base/dapxsumkbn2` [(#10575)](https://github.com/stdlib-js/stdlib/pull/10575) _(by Prajjwal Bajpai)_
 
 </details>
